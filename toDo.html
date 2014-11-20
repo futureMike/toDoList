@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>to-do list mania!</title>
+    <style>
+        ul { list-style: non; padding: 0; margin: 0; width: 300px;}
+        li {border: 1px solid #ccc; background: #eee; padding: 5px 10px; color: #000;}
+        li span{ padding-left: 10px;}
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript" src="toDo.js"></script>
+    
+    <input type="input" id="listItem"><br>
+    <button type="button" onclick="addItem(listItem.value)">AddToList</button>
+    <button type="button" onclick="checkDone()">StrikeDoneItems</button>
+    <ul id="toDoList">
+        
+    </ul>
+    
+    
+
+
+
+</body>
+</html>
